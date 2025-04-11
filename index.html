@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Tailwind CSS -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Portfolio Website</title>
 </head>
 <body>
-    <nav class="bg-[crimson] fixed w-full z-10">
-        <div class="w-[1320px] mx-auto flex justify-between items-center py-5 font-sans">
+    <header class="bg-[crimson] fixed w-full z-10 shadow-xl/20">
+        <nav class="w-[1320px] mx-auto flex justify-between items-center py-5 font-sans">
             <a href="#" class="">
                 <img src="https://themewagon.github.io/patrix/images/logo.png" alt="logo">
             </a>
@@ -22,7 +23,7 @@
                 <li class="mt-4"><a href="#" class="hover:text-white">Portfolio</a></li>
                 <li class="mt-4"><a href="#" class="hover:text-white">Contact</a></li>
                 <li>
-                    <button class="w-[200px] h-[54px] bg-[#ffffff] text-[#000000] font-bold rounded-full flex items-center justify-around hover:bg-[transparent] hover:text-[#ffffff] transition-all duration-300 hover:border-[2px] hover:border-[#ffffff8c] " type="button">
+                    <button class="w-[187px] h-[54px] bg-[#ffffff] text-[#000000] font-bold rounded-full flex items-center justify-around hover:bg-[transparent] hover:text-[#ffffff] transition-all duration-300 hover:border-[2px] hover:border-[#ffffff8c]" type="button">
                         <span class="text-[]">+998773789474</span>
                         <span class="ml-2 w-[40px] h-[40px] bg-[#000000] rounded-full bg-[#9926f0] flex items-center justify-center text-white">
                             <i class="fa-solid fa-phone"></i>
@@ -30,7 +31,25 @@
                     </button>
                 </li>
             </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="w-full h-auto pt-[100px] pb-[150px] mx-auto font-sans bg-[crimson]">
+        <div class="w-[1320px] m-auto flex justify-between font-sans">
+            <div class=" pt-[160px]">
+                <h1 class="text-[72px] text-[#ffffff] font-bold pb-[15px]">Hey!, I'm Nodirbek</h1>
+                <p class="text-[#ffffff] w-[632px] text-[24px] indent-8 pb-[30px]">this is a multi-purpose responsive layout created with tailwindcss. (here your can place your description text)</p>
+                <button class="w-[200px] h-[54px] bg-[#ffffff] text-[#000000] font-bold rounded-full flex items-center justify-around hover:bg-[transparent] hover:text-[#ffffff] transition-all duration-300 hover:border-[2px] hover:border-[#ffffff8c]">
+                    <span class="text-[18px] font-sans">Get in Touch</span>
+                    <span class="ml-2 w-[40px] h-[40px] bg-[#000000] rounded-full bg-[#9926f0] flex items-center justify-center text-white">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="pt-[60px]">
+                <img src="https://themewagon.github.io/patrix/images/arts/intro-section-illustration.png" alt="hero-img">
+            </div>
         </div>
-    </nav>
+    </section>
 </body>
 </html>
