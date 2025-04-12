@@ -29,3 +29,7 @@
 <div align="center">
     <img src="https://themewagon.github.io/patrix/images/services/service-2.png" alt="">
 </div>
+
+<div align="center">
+    <img src="https://themewagon.github.io/patrix/images/services/service-3.png" alt="">
+</div>
