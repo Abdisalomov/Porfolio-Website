@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Tailwind CSS -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- CSS -->
+     <link rel="stylesheet" href="./css/main.css">
     <title>Portfolio Website</title>
 </head>
 <body>
@@ -19,7 +21,7 @@
                 <li class="mt-4"><a href="#" class="text-white">Home</a></li>
                 <li class="mt-4"><a href="#services" class="hover:text-white">Services</a></li>
                 <li class="mt-4"><a href="#testimonials" class="hover:text-white">Testimonials</a></li>
-                <li class="mt-4"><a href="#" class="hover:text-white">Faq</a></li>
+                <li class="mt-4"><a href="#faq" class="hover:text-white">Faq</a></li>
                 <li class="mt-4"><a href="#" class="hover:text-white">Portfolio</a></li>
                 <li class="mt-4"><a href="#" class="hover:text-white">Contact</a></li>
                 <li>
@@ -159,7 +161,7 @@
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <div class="flex justify-center mt-2">
-                    <img class="w-[96px] h-[96px] rounded-full border-[4px] border-[#9926f0]" src="./img/user.jpg" alt="">
+                    <img class="w-[96px] h-[96px] rounded-full border-[4px] border-[#9926f0]" src="https://themewagon.github.io/patrix/images/testimonials/client-4.jpg" alt="">
                 </div>
            </div>
         </div>
@@ -174,7 +176,7 @@
         </div>
     </section>
 
-    <section class="pt-[100px] pb-[100px]"> 
+    <section class="pt-[100px] pb-[100px]" id="faq"> 
         <hr class="bg-[#9926f0] h-[2px] opacity-25">
         <div>
             <div class="flex justify-center mt-[-15px]">
@@ -184,8 +186,77 @@
                 <p class="text-[20px] text-[#212529]">frequently asked questions, get knowledge befere hand</p>
             </div>
         </div>
+
+        <div class="w-[1320px] m-auto mt-[60px]">
+            <div class="">
+                <div id="toggleBtn" class="cursor-pointer w-full h-[80px] bg-[#ffffff] border-t-[0.5px] border-t-[#9926f0]  rounded-t-[5px] border-l-[1px] border-l-[#9926f0] border-r-[1px] border-r-[#9926f0] shadow-xl/30 flex justify-between items-center pl-[20px] pr-[20px]" onclick="toggleDiv()">
+                    <span class="text-[#212529] opacity-75">What are the main features?</span>
+                    <span id="icon" class="text-[32px] text-[#9926f0]">+</span>
+                </div>
+            </div>
+            <div id="myDiv" style="display: none;" class="w-full h-[100px] bg-[#ffffff] shadow-xl/20 p-[20px]">
+                <p>
+                    <span class="font-bold">This is the first item's accordion body.</span>
+                    It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the 
+                    <span class="text-[#9926f0]">.accordion-body,</span>
+                    though the transition does limit overflow.
+                </p>
+            </div>
+        </div>
+    </section> 
+
+    <section class="pt-[20px] pb-[100px]">
+        <div class="w-[1320px] m-auto">
+            <div class="flex justify-center">
+                <h1 class="text-[64px] font-bold">Latest work</h1>
+            </div>
+            <div class="flex justify-center mt-4 mb-[50px] opacity-75">
+                <p class="text-[20px] text-[#212529]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.</p>
+            </div>
+
+            <div class="flex justify-center gap-[5px] mb-[20px]">
+                <button class="pt-[2px] pb-[2px] pl-[10px] pr-[10px] rounded-[3px] border-[1px] border-[#9926f0] text-[#9926f0] hover:bg-[#9926f0] hover:text-[#ffffff]">All</button>
+                <button class="pt-[2px] pb-[2px] pl-[10px] pr-[10px] rounded-[3px] border-[1px] border-[#9926f0] text-[#9926f0] hover:bg-[#9926f0] hover:text-[#ffffff]">Websites</button>
+                <button class="pt-[2px] pb-[2px] pl-[10px] pr-[10px] rounded-[3px] border-[1px] border-[#9926f0] text-[#9926f0] hover:bg-[#9926f0] hover:text-[#ffffff]">Design</button>
+                <button class="pt-[2px] pb-[2px] pl-[10px] pr-[10px] rounded-[3px] border-[1px] border-[#9926f0] text-[#9926f0] hover:bg-[#9926f0] hover:text-[#ffffff]">Mackup</button>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4">
+                <img class="w-[416px] h-[288px] border-t-[7px] border-[#9926f0]" src="https://themewagon.github.io/patrix/images/portfolio/portfolio-1.jpg" alt="">
+                <img class="w-[416px] h-[288px] border-t-[7px] border-[#9926f0]" src="https://themewagon.github.io/patrix/images/portfolio/portfolio-2.jpg" alt="">
+                <img class="w-[416px] h-[288px] border-t-[7px] border-[#9926f0]" src="https://themewagon.github.io/patrix/images/portfolio/portfolio-3.jpg" alt="">
+                <img class="w-[416px] h-[288px] border-t-[7px] border-[#9926f0]" src="https://themewagon.github.io/patrix/images/portfolio/portfolio-4.jpg" alt="">
+                <img class="w-[416px] h-[288px] border-t-[7px] border-[#9926f0]" src="https://themewagon.github.io/patrix/images/portfolio/portfolio-5.jpg" alt="">
+                <img class="w-[416px] h-[288px] border-t-[7px] border-[#9926f0]" src="https://themewagon.github.io/patrix/images/portfolio/portfolio-6.jpg" alt="">
+                <img class="w-[416px] h-[288px] border-t-[7px] border-[#9926f0]" src="https://themewagon.github.io/patrix/images/portfolio/portfolio-7.jpg" alt="">
+                <img class="w-[416px] h-[288px] border-t-[7px] border-[#9926f0]" src="https://themewagon.github.io/patrix/images/portfolio/portfolio-8.jpg" alt="">
+                <img class="w-[416px] h-[288px] border-t-[7px] border-[#9926f0]" src="https://themewagon.github.io/patrix/images/portfolio/portfolio-9.jpg" alt="">
+            </div>
+        </div>
     </section>
 
 
+    <script>
+		function toggleDiv() {
+			var div = document.getElementById("myDiv")
+			if (div.style.display === "none") {
+				div.style.display = "block"
+			} else {
+				div.style.display = "none"
+			}
+		}
+
+
+        const toggleBtn = document.getElementById('toggleBtn')
+		const icon = document.getElementById('icon')
+
+		toggleBtn.addEventListener('click', () => {
+			if (icon.textContent === '+') {
+				icon.textContent = '−' // minus belgisi
+			} else {
+				icon.textContent = '+' // plus belgisi
+			}
+		});
+	</script>
 </body>
 </html>
