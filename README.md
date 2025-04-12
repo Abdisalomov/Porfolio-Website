@@ -9,7 +9,7 @@
 
 <hr>
 
-# Consists of technologies  <img src="https://skillicons.dev/icons?i=html,tailwind,js,gsap&perline=6&theme=dark" />.
+# Consists of technologies  <img src="https://skillicons.dev/icons?i=html,tailwind,js,gsap&perline=6&theme=dark" />
 
 <hr>
 
