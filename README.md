@@ -22,11 +22,10 @@
     <img src="https://themewagon.github.io/patrix/images/arts/intro-section-illustration.png">
 </div>
 
-<img width="124px" height="32px" src="https://themewagon.github.io/patrix/images/campanies/campany-1.png">
-<img src="https://themewagon.github.io/patrix/images/campanies/campany-2.png">
-<img src="https://themewagon.github.io/patrix/images/campanies/campany-3.png">
-<img src="https://themewagon.github.io/patrix/images/campanies/campany-4.png">
-<img src="https://themewagon.github.io/patrix/images/campanies/campany-5.png">
-<img src="https://themewagon.github.io/patrix/images/campanies/campany-6.png">
+<div align="center">
+    <img src="https://themewagon.github.io/patrix/images/services/service-1.png" alt="">
+</div>
 
-<img src="https://skillicons.dev/icons?i=bootstrap,tailwind,google,react,sass,npm,gsap&perline=6&theme=dark" />
+<div align="center">
+    <img src="https://themewagon.github.io/patrix/images/services/service-2.png" alt="">
+</div>
