@@ -11,3 +11,5 @@
 
 
 <img src="https://themewagon.github.io/patrix/images/logo.png" alt="logo">
+
+<img src="https://themewagon.github.io/patrix/images/arts/intro-section-illustration.png">
