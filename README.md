@@ -28,3 +28,5 @@
 <img src="https://themewagon.github.io/patrix/images/campanies/campany-4.png">
 <img src="https://themewagon.github.io/patrix/images/campanies/campany-5.png">
 <img src="https://themewagon.github.io/patrix/images/campanies/campany-6.png">
+
+<img src="https://skillicons.dev/icons?i=bootstrap,tailwind,google,react,sass,npm,gsap&perline=6&theme=dark" />
