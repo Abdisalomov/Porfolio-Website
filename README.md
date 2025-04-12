@@ -20,4 +20,6 @@
 
 <div align="center">
     <img src="https://themewagon.github.io/patrix/images/arts/intro-section-illustration.png">
+    <img src="https://themewagon.github.io/patrix/images/arts/intro-section-illustration.png">
+
 </div>
