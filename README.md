@@ -22,7 +22,7 @@
     <img src="https://themewagon.github.io/patrix/images/arts/intro-section-illustration.png">
 </div>
 
-<img src="https://themewagon.github.io/patrix/images/campanies/campany-1.png">
+<img width="124px" height="32px" src="https://themewagon.github.io/patrix/images/campanies/campany-1.png">
 <img src="https://themewagon.github.io/patrix/images/campanies/campany-2.png">
 <img src="https://themewagon.github.io/patrix/images/campanies/campany-3.png">
 <img src="https://themewagon.github.io/patrix/images/campanies/campany-4.png">
