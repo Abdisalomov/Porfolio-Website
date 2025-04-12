@@ -20,6 +20,11 @@
 
 <div align="center">
     <img src="https://themewagon.github.io/patrix/images/arts/intro-section-illustration.png">
-    <img src="https://themewagon.github.io/patrix/images/arts/intro-section-illustration.png">
-
 </div>
+
+<img src="https://themewagon.github.io/patrix/images/campanies/campany-1.png">
+<img src="https://themewagon.github.io/patrix/images/campanies/campany-2.png">
+<img src="https://themewagon.github.io/patrix/images/campanies/campany-3.png">
+<img src="https://themewagon.github.io/patrix/images/campanies/campany-4.png">
+<img src="https://themewagon.github.io/patrix/images/campanies/campany-5.png">
+<img src="https://themewagon.github.io/patrix/images/campanies/campany-6.png">
