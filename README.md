@@ -10,6 +10,8 @@
 <hr>
 
 
-<img src="https://themewagon.github.io/patrix/images/logo.png" alt="logo">
+<div align="center">
+    <img src="https://themewagon.github.io/patrix/images/logo.png" alt="logo">
+</div>
 
 <img src="https://themewagon.github.io/patrix/images/arts/intro-section-illustration.png">
